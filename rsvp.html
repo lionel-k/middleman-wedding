@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>RSVP - Annamária and Lionel</title>
+    <link href="stylesheets/application-471ba7ad.css" rel="stylesheet" />
+    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="images/favicon-96de4500.png" rel="icon" type="image/png" />
+  </head>
+  <body>
+    <div class="navbar-wagon">
+  <!-- Flags -->
+  <div class="navbar-flags">
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/uk-flag.svg-bff28931.png" alt="logo">
+      <img src="images/hungary-flag-svg-039ce324.png" alt="logo">
+      <img src="images/france-flag-svg-65df83c2.svg" alt="logo">
+      <img src="images/italy-flag-svg-46958abd.svg" alt="logo">
+    </a>
+  </div>
+
+  <!-- Avatars in the middle of the navbar -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <img src="images/lionel-465f73e4.jpeg" class="avatar" alt="Lionel" />
+    <img src="images/panni-99ee7c03.jpg" class="avatar" alt="Panni" />
+  </div>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="index.html" class="navbar-wagon-item navbar-wagon-link">Home</a>
+    <a href="rsvp.html" class="navbar-wagon-item navbar-wagon-link">RSVP</a>
+    <a href="gallery.html" class="navbar-wagon-item navbar-wagon-link">Gallery</a>
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="images/lionel-465f73e4.jpeg" class="avatar" alt="Lionel" />
+        <img src="images/panni-99ee7c03.jpg" class="avatar" alt="Panni" />
+<!--         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">RSVP</a></li>
+        <!-- <li><a href="#">Trips</a></li> -->
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="container form">
+  <h2 class="text-center">Let us know if you will make it..</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+
+      <form action="#">
+
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="Bob">
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Sponge">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your email</label>
+          <input type="email" id="email" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="rsvp">Are you coming ?</label>
+          <select id="rsvp-choices" name="rsvp-choices" class="form-control">
+            <option value="attending">Attending</option>
+            <option value="not-attending">Not attending - Sorry :(</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="rsvp">Who else is coming with you ?</label>
+          <div class="row">
+
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="additional-first-name" placeholder="Bob">
+              </div>
+            </div>
+
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="additional-last-name" placeholder="Sponge">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="considerations">Please let us know any if you have any special considerations.</label>
+          <textarea name="textarea" rows="5" class="form-control">
+          </textarea>
+        </div>
+
+        <input type="submit" value="Send RSVP" class="btn btn-primary">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="footer-copyright">
+    Made with <i class="fa fa-heart"></i> by Annamária and Lionel
+  </div>
+</div>
+
+  </body>
+</html>

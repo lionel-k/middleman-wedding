@@ -7,29 +7,40 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Wedding - Annamária and Lionel</title>
-    <link href="stylesheets/application-9f6c5069.css" rel="stylesheet" />
+    <link href="stylesheets/application-471ba7ad.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="images/favicon-96de4500.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
-  <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="images/uk-flag.svg-bff28931.png" alt="logo">
-  </a>
+  <!-- Flags -->
+  <div class="navbar-flags">
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/uk-flag.svg-bff28931.png" alt="logo">
+      <img src="images/hungary-flag-svg-039ce324.png" alt="logo">
+      <img src="images/france-flag-svg-65df83c2.svg" alt="logo">
+      <img src="images/italy-flag-svg-46958abd.svg" alt="logo">
+    </a>
+  </div>
+
+  <!-- Avatars in the middle of the navbar -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <img src="images/lionel-465f73e4.jpeg" class="avatar" alt="Lionel" />
+    <img src="images/panni-99ee7c03.jpg" class="avatar" alt="Panni" />
+  </div>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
+    <a href="index.html" class="navbar-wagon-item navbar-wagon-link">Home</a>
     <a href="rsvp.html" class="navbar-wagon-item navbar-wagon-link">RSVP</a>
-    <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a> -->
     <a href="gallery.html" class="navbar-wagon-item navbar-wagon-link">Gallery</a>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <img src="images/lionel-465f73e4.jpeg" class="avatar" alt="Lionel" />
+        <img src="images/panni-99ee7c03.jpg" class="avatar" alt="Panni" />
 <!--         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -44,6 +55,7 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Home</a></li>
         <li><a href="#">RSVP</a></li>
         <!-- <li><a href="#">Trips</a></li> -->
         <li><a href="gallery.html">Gallery</a></li>
@@ -52,53 +64,52 @@
   </div>
 </div>
 
-    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
-  <div class="banner-content">
-    <h1>Annamária & Lionel</h1>
-    <p>23rd June 2018</p>
-    <p>Incisa Val d'Arno, Italy</p>
-    <a class="btn btn-primary btn-lg">RSVP now</a>
+    <!-- <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/teotokos-2-8b0d22b4.jpeg);"> -->
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/teotokos-2-8b0d22b4.jpeg);">
+    <div class="banner-content">
+      <h1>Annamária & Lionel</h1>
+      <p>23rd June 2018</p>
+      <p>Incisa Val d'Arno, Italy</p>
+
+      <a href="rsvp.html" class="btn btn-treehouse btn-lg">Are you coming ?</a>
+    </div>
   </div>
-</div>
 
-<h2 class="text-center title">The Big Day</h2>
+  <h2 class="text-center title">The Big Day</h2>
 
-<div class="container">
-  <div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+       <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/teotokos-1-9d4c0a99.jpg);">
+        <div class="card-category">Mass</div>
+        <div class="card-description">
+          <h2>Santuario Maria Theotokos</h2>
+          <p>2:00 PM</p>
+        </div>
+        <a class="card-link" href="" ></a>
+      </div>
+    </div>
     <div class="col-xs-12 col-sm-4">
-     <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-      <div class="card-category">Popular</div>
-      <div class="card-description">
-        <h2>Le Wagon Shanghai</h2>
-        <p>Very cool city, the best</p>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/campogiallo-c809b34c.jpg);">
+        <div class="card-category">Dinner</div>
+        <div class="card-description">
+          <h2>Campogiallo</h2>
+          <p>5:00 PM</p>
+        </div>
+        <a class="card-link" href="#" ></a>
       </div>
-      <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-      <a class="card-link" href="#" ></a>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/party-34aab6c2.jpg);">
+        <div class="card-category">Party</div>
+        <div class="card-description">
+          <h2>Campogiallo</h2>
+          <p>10:00 PM</p>
+        </div>
+        <a class="card-link" href="#" ></a>
+      </div>
     </div>
   </div>
-  <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-      <div class="card-category">Popular</div>
-      <div class="card-description">
-        <h2>Le Wagon Shanghai</h2>
-        <p>Very cool city, the best</p>
-      </div>
-      <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-      <a class="card-link" href="#" ></a>
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-      <div class="card-category">Popular</div>
-      <div class="card-description">
-        <h2>Le Wagon Shanghai</h2>
-        <p>Very cool city, the best</p>
-      </div>
-      <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-      <a class="card-link" href="#" ></a>
-    </div>
-  </div>
-</div>
 </div>
 
     <div class="footer">
