@@ -1,16 +1,18 @@
 <div class="navbar-wagon">
-  <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="images/uk-flag.svg.png" alt="logo">
-    <img src="images/uk-flag.svg.png" alt="logo">
-    <img src="images/uk-flag.svg.png" alt="logo">
-    <img src="images/uk-flag.svg.png" alt="logo">
-  </a>
+  <!-- Flags -->
+  <div class="navbar-flags">
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/uk-flag.svg.png" alt="logo">
+      <img src="images/hungary-flag-svg.png" alt="logo">
+      <img src="images/france-flag-svg.svg" alt="logo">
+      <img src="images/italy-flag-svg.svg" alt="logo">
+    </a>
+  </div>
 
-  <!-- Avatar in the middle of the navbar -->
-  <div class="navbar-wagon-item">
-    <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-    <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+  <!-- Avatars in the middle of the navbar -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <%= image_tag "lionel.jpeg", class: "avatar" %>
+    <%= image_tag "panni.jpg", class: "avatar" %>
   </div>
 
   <!-- Right Navigation -->
@@ -23,8 +25,8 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-<!--         <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-  <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown"> -->
+        <%= image_tag "lionel.jpeg", class: "avatar" %>
+        <%= image_tag "panni.jpg", class: "avatar" %>
 <!--         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
