@@ -2,39 +2,22 @@
 //= require bootstrap
 //= require_tree .
 
-const disableClick = (event) => {
+const disableClick = function(event) {
   event.preventDefault();
 };
 
-const bindDisableClick = (element) => {
+const bindDisableClick = function(element) {
   element.addEventListener("click", disableClick);
 };
 
-// const changeActiveTab = (event) => {
-//   event.
-// };
 
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function(e) {
   document.querySelectorAll(".disable-click").forEach(bindDisableClick);
 
-  // document.querySelectorAll(".tab").forEach((tab) => {
-  // tab.addEventListener("click", (event) => {
-  //   document.querySelector(".active").classList.remove("active");
-  //   event.currentTarget.classList.add("active");
-  //   });
-  // });
-
-
+  document.querySelectorAll(".tab").forEach(function(tab){
+  tab.addEventListener("click", function(event) {
+    document.querySelector(".active").classList.remove("active");
+    event.currentTarget.classList.add("active");
+    });
+  });
 });
-
-// document.addEventListener = (element) => {
-
-// }
-
-
-// document.querySelectorAll(".tab").forEach((tab) => {
-//   tab.addEventListener("click", (event) => {
-//     event.currentTarget.classList.toggle("active");
-//   });
-// });
