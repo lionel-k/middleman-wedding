@@ -29,6 +29,9 @@
 .stat {
   height: 10px; }
 
+@media (max-width: 940px) {
+  .profile {
+    display: block; } }
 /* Fonts and colors */
 .profile h2 {
   font-size: 22px; }
