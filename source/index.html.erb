@@ -2,6 +2,7 @@
 title: Annamária and Lionel - Wedding
 ---
 
+<div class="container">
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'images/teotokos-2.jpeg' %>);">
     <div class="banner-content">
       <h1>Annamária & Lionel</h1>
@@ -11,19 +12,27 @@ title: Annamária and Lionel - Wedding
       <%= link_to "Are you coming ?", "/rsvp.html", class: "btn btn-treehouse btn-lg" %>
     </div>
   </div>
+</div>
 
-  <p class="text-center quote"><em>If I should have to leave this world today and you were to ask me for a single word, I would say ‘Be a family’.</em></p>
-  <p class="text-center">- Chiara Lubich</p>
 
+<p class="text-center quote"><em>If I should have to leave this world today and you were to ask me for a single word, I would say ‘Be a family’.</em></p>
+<p class="text-center">- Chiara Lubich</p>
+
+
+<div id="container">
   <h2 class="text-center title">The Big Day</h2>
   <%= partial "layouts/the_big_day" %>
+</div>
 
-  <h2 class="text-center title">Our Story</h2>
 
+<div class="container">
   <h2 class="text-center title">Travel and Accomodation</h2>
   <%= partial "layouts/travel_and_accomodation" %>
+</div>
 
-  <h2 class="text-center title">Wedding and Hollidays in Tuscany</h2>
-  <%= partial "layouts/wedding_and_hollidays" %>
+<div class="container">
+  <h2 class="text-center title">Wedding and Holidays in Tuscany</h2>
+  <%= partial "layouts/wedding_and_holidays" %>
+</div>
 
-
+<h2 class="text-center title">Our Story</h2>

@@ -1,0 +1,18 @@
+- image: 'holidays/florence.jpg'
+  name: 'Florence'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+- image: 'holidays/florence.jpg'
+  name: 'Arezzo'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+- image: 'holidays/florence.jpg'
+  name: 'Sienna'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+- image: 'holidays/florence.jpg'
+  name: 'Luca'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+- image: 'holidays/pisa.jpg'
+  name: 'Pisa'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+- image: 'holidays/pisa.jpg'
+  name: 'San Gimignano'
+  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
