@@ -5,9 +5,18 @@ title: Annamária and Lionel - Wedding
 <div class="container">
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'images/teotokos-2.jpeg' %>);">
     <div class="banner-content">
-      <h1>Annamária & Lionel</h1>
-      <p>23rd June 2018</p>
-      <p>Incisa Val d'Arno, Italy</p>
+      <!-- <h1 class="hidden-md hidden-lg">Annamária & Lionel</h1> -->
+      <h1 class="hidden-xs hidden-sm">Annamária & Lionel</h1>
+      <div class="hidden-md hidden-lg">
+        <h1>Annamária</h1>
+        <h1>&</h1>
+        <h1>Lionel</h1>
+      </div>
+
+      <div class="details">
+        <p>23rd June 2018</p>
+        <p>Incisa Val d'Arno, Italy</p>
+      </div>
 
       <%= link_to "Are you coming ?", "/rsvp.html", class: "btn btn-treehouse btn-lg" %>
     </div>
