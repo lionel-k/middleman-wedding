@@ -11,13 +11,11 @@ const bindDisableClick = function(element) {
 };
 
 
-document.addEventListener("DOMContentLoaded", function(e) {
-  document.querySelectorAll(".disable-click").forEach(bindDisableClick);
+document.querySelectorAll(".disable-click").forEach(bindDisableClick);
 
-  document.querySelectorAll(".tab").forEach(function(tab){
-  tab.addEventListener("click", function(event) {
-    document.querySelector(".active").classList.remove("active");
-    event.currentTarget.classList.add("active");
-    });
+document.querySelectorAll(".tab").forEach(function(tab){
+tab.addEventListener("click", function(event) {
+  document.querySelector(".active").classList.remove("active");
+  event.currentTarget.classList.add("active");
   });
 });
