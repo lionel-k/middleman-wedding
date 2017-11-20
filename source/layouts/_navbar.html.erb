@@ -18,17 +18,17 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <%= link_to "Home", "index.html", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "The Big Day", "#the-big-day", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Travel and Accomodation", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Wedding and Holidays in Tuscany", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Our Story", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "The Big Day", "index.html#the-big-day", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Travel and Accomodation", "index.html#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Wedding and Holidays in Tuscany", "index.html#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Our Story", "index.html#our-story", class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "RSVP", "rsvp.html", class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "Gallery", "gallery.html", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <%= image_tag "panni-leo.jpg", class: "avatar" %>
+        <%= link_to image_tag("panni-leo.jpg", class: "avatar"), "index.html#our-story", class: "avatar" %>
 <!--         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
