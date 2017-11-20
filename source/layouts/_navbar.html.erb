@@ -17,9 +17,13 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="index.html" class="navbar-wagon-item navbar-wagon-link">Home</a>
-    <a href="rsvp.html" class="navbar-wagon-item navbar-wagon-link">RSVP</a>
-    <a href="gallery.html" class="navbar-wagon-item navbar-wagon-link">Gallery</a>
+    <%= link_to "Home", "index.html", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "The Big Day", "#the-big-day", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Travel and Accomodation", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Wedding and Holidays in Tuscany", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Our Story", "#travel-and-accomodation", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "RSVP", "rsvp.html", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Gallery", "gallery.html", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
@@ -39,9 +43,13 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="rsvp.html">RSVP</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><%= link_to "Home", "index.html" %></li>
+        <li><%= link_to "The Big Day", "index.html#the-big-day" %></li>
+        <li><%= link_to "Travel and Accomodation", "index.html#travel-and-accomodation" %></li>
+        <li><%= link_to "Wedding and Holidays in Tuscany", "index.html#wedding-and-holidays-in-tuscany" %></li>
+        <li><%= link_to "Our Story", "index.html#our-story" %></li>
+        <li><%= link_to "RSVP", "rsvp.html" %></li>
+        <li><%= link_to "Gallery", "gallery.html" %></li>
       </ul>
     </div>
   </div>
