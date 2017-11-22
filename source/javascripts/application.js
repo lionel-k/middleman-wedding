@@ -3,3 +3,4 @@
 //= require_tree .
 //= disableClick
 //= countdown
+//= activeTab
