@@ -1,0 +1,1 @@
+const disableClick=function(i){i.preventDefault()},bindDisableClick=function(i){i.addEventListener("click",disableClick)};document.querySelectorAll(".disable-click").forEach(bindDisableClick);
