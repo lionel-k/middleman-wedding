@@ -7,11 +7,10 @@ title: Gallery - Annamária and Lionel
       <% data.gallery.each do |picture| %>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" style="background-image: url(<%= image_path picture.url %>);">
-          <div class="card-category"><%= picture.description %></div>
           <a class="card-link disable-click" href="#" ></a>
         </div>
         <div class="card-bottom">
-
+          <p class="text-center"><small><%= picture.description %></small></p>
         </div>
       </div>
       <% end %>
