@@ -1,18 +1,34 @@
 - image: 'holidays/florence.jpg'
   name: 'Florence'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
 - image: 'holidays/arezzo.jpg'
   name: 'Arezzo'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
 - image: 'holidays/siena.jpg'
   name: 'Siena'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
 - image: 'holidays/lucca.jpg'
   name: 'Lucca'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
 - image: 'holidays/pisa.jpg'
   name: 'Pisa'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 - image: 'holidays/san-gimignano.jpg'
   name: 'San Gimignano'
-  details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magni, temporibus excepturi consectetur dolorum officiis mollitia cumque nulla nesciunt ipsam expedita, deleniti dicta eveniet incidunt minus quibusdam quidem similique molestiae."
+  detail_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  detail_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
