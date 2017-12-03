@@ -1,19 +1,18 @@
 <div class="container text-center">
   <div class="tabs">
-    <a href="#" class="tab active disable-click">Travel</a>
-    <a href="#" class="tab disable-click">Accomodation</a>
+    <a href="#" class="tab active disable-click tab-travel">Travel</a>
+    <a href="#" class="tab disable-click tab-accomodation">Accomodation</a>
   </div>
 
-  <ul class="inbox">
+  <ul class="inbox inbox-travel">
     <li class="message">
       <img src="images/flight-landing.svg" alt="" class="avatar-lg">
       <div class="message-name">
         <p><strong>Saturday, 23/06/2018</strong></p>
         <p>Between 6am - 11am</p>
       </div>
-      <div class="message-body">
+      <div class="message-body text-center">
         <p><strong>Pisa International Airport</strong></p>
-        <p> I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?</p>
         <p> I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?</p>
         <p> I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?</p>
         <p> I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?</p>
@@ -23,6 +22,7 @@
         <p class="price">€345</p>
       </div> -->
     </li>
+
     <li class="message">
       <img src="images/flight-landing.svg" alt="" class="avatar-lg">
       <div class="message-name">
@@ -39,6 +39,7 @@
         <p class="price">€345</p>
       </div> -->
     </li>
+
     <li class="message">
       <img src="images/car.png" alt="" class="avatar-lg">
       <div class="message-name">
@@ -57,7 +58,8 @@
         <p class="price">€345</p>
       </div> -->
     </li>
-
+  </ul>
+  <ul class="inbox inbox-accomodation">
     <li class="message">
       <img src="images/hotel.png" alt="" class="avatar-lg">
       <div class="message-name">
@@ -74,7 +76,7 @@
       <div class="message-status">
         <p class="status accepted">Price</p>
         <p class="price">€345</p>
-        <p><%= link_to "Visit website", "http://airbnb.com", class: "btn btn-treehouse btn-xs" %></p>
+        <p><%= link_to "Visit website", "http://airbnb.com", class: "btn btn-treehouse btn-small" %></p>
 
       </div>
     </li>
