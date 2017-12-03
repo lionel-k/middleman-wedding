@@ -7,7 +7,7 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>RSVP - Annamária and Lionel</title>
-  <link href="stylesheets/application-cdb1a64e.css" rel="stylesheet" />
+  <link href="stylesheets/application-f8d6a497.css" rel="stylesheet" />
   <link href="images/favicon-96de4500.png" rel="icon" type="image/png" />
 </head>
 <body>
@@ -41,7 +41,7 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <a href="./#our-story" class="avatar"><img src="images/panni-leo-fccb1f19.jpg" class="avatar" alt="Panni leo" /></a>
+        <a href="./" class="avatar"><img src="images/panni-leo-fccb1f19.jpg" class="avatar" alt="Panni leo" /></a>
 <!--         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -79,8 +79,14 @@
 
           <div class="col-xs-12">
             <div class="form-group">
-              <label for="first-name">Your name</label>
-              <input type="text" class="form-control" id="full-name" placeholder="Christopher West" autocomplete="off">
+              <label for="first-name">Your first name</label>
+              <input type="text" class="form-control" id="full-name" placeholder="Christopher" autocomplete="off">
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="last-name">Your last name</label>
+              <input type="text" class="form-control" id="full-name" placeholder="West" autocomplete="off">
             </div>
           </div>
         </div>
@@ -93,15 +99,14 @@
         <div class="form-group">
           <label for="rsvp">Are you coming ?</label>
           <select id="rsvp-choices" name="rsvp-choices" class="form-control">
-            <option value="attending">Attending</option>
-            <option value="not-attending">Not attending - Sorry :(</option>
+            <option value="yes-attending">Yes, I am coming.</option>
+            <option value="no-attending">No. I won't be able.</option>
           </select>
         </div>
 
         <div class="form-group">
           <label for="rsvp">Who else is coming with you ?</label>
           <div class="row">
-
             <div class="col-xs-12">
               <div class="form-group">
                 <input type="text" class="form-control" id="additional-name" placeholder="Karol Józef Wojtyła">
@@ -111,7 +116,15 @@
         </div>
 
         <div class="form-group">
-          <label for="considerations">Please let us know any if you have any special considerations.</label>
+          <label for="rsvp">Would you like us to help you with the accomodation ?</label>
+          <select id="rsvp-choices" name="rsvp-choices" class="form-control">
+            <option value="yes-accomodation">Yes, please.</option>
+            <option value="no-accomodation">No, thank you.</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="considerations">Please, let us know, if you have any special considerations, food intolerance, allergies.</label>
           <textarea name="textarea" rows="5" class="form-control">
           </textarea>
         </div>
