@@ -1,1 +1,0 @@
-document.querySelectorAll(".tab").forEach(function(e){e.addEventListener("click",function(e){document.querySelector(".active").classList.remove("active"),e.currentTarget.classList.add("active")})});
